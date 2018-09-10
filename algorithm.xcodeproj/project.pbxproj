@@ -41,6 +41,9 @@
 		EF56FA5F2137C6B300C5342F /* bj11724.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj11724.swift; sourceTree = "<group>"; };
 		EF56FA602137CAC600C5342F /* bj10451.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj10451.swift; sourceTree = "<group>"; };
 		EF56FA612137D8E200C5342F /* kakaoDemo01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakaoDemo01.swift; sourceTree = "<group>"; };
+		EF7A5F012146264900C6ECB4 /* bj1544.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj1544.swift; sourceTree = "<group>"; };
+		EF7A5F032146A83000C6ECB4 /* bj1371_X.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj1371_X.swift; sourceTree = "<group>"; };
+		EF7A5F052146AE4000C6ECB4 /* bj5128_X.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj5128_X.swift; sourceTree = "<group>"; };
 		EFF5E0B12136AB8E00C98383 /* bj1037.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj1037.swift; sourceTree = "<group>"; };
 		EFF5E0B32136B13600C98383 /* bj1076.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj1076.swift; sourceTree = "<group>"; };
 		EFF5E0B52136B4BB00C98383 /* bj1057.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj1057.swift; sourceTree = "<group>"; };
@@ -97,6 +100,7 @@
 				EFF5E0B32136B13600C98383 /* bj1076.swift */,
 				EF342EB3212B062100310FD9 /* bj1920.swift */,
 				EF56FA5F2137C6B300C5342F /* bj11724.swift */,
+				EF7A5F032146A83000C6ECB4 /* bj1371_X.swift */,
 				EF56FA602137CAC600C5342F /* bj10451.swift */,
 				EFF5E0B52136B4BB00C98383 /* bj1057.swift */,
 				EFF5E0B12136AB8E00C98383 /* bj1037.swift */,
@@ -106,6 +110,8 @@
 				EF342EA021280FCD00310FD9 /* bj5622.swift */,
 				EF342EA5212942E300310FD9 /* bj11866.swift */,
 				EF342EA421282D6500310FD9 /* bj9012.swift */,
+				EF7A5F012146264900C6ECB4 /* bj1544.swift */,
+				EF7A5F052146AE4000C6ECB4 /* bj5128_X.swift */,
 			);
 			path = Backjoon;
 			sourceTree = "<group>";
