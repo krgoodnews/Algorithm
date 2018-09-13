@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EF342EB1212AC0E700310FD9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF342EB0212AC0E700310FD9 /* main.swift */; };
+		EF7A5F0E2147839F00C6ECB4 /* descending.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A5F0D2147839F00C6ECB4 /* descending.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +45,14 @@
 		EF7A5F012146264900C6ECB4 /* bj1544.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj1544.swift; sourceTree = "<group>"; };
 		EF7A5F032146A83000C6ECB4 /* bj1371_X.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj1371_X.swift; sourceTree = "<group>"; };
 		EF7A5F052146AE4000C6ECB4 /* bj5128_X.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj5128_X.swift; sourceTree = "<group>"; };
+		EF7A5F072146B52600C6ECB4 /* year2016.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = year2016.swift; sourceTree = "<group>"; };
+		EF7A5F0921477F6800C6ECB4 /* divideArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = divideArray.swift; sourceTree = "<group>"; };
+		EF7A5F0B2147810D00C6ECB4 /* sumTwoIntagers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumTwoIntagers.swift; sourceTree = "<group>"; };
+		EF7A5F0D2147839F00C6ECB4 /* descending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = descending.swift; sourceTree = "<group>"; };
+		EF7A5F0F2147C7DB00C6ECB4 /* kakaoLastYear_Dart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakaoLastYear_Dart.swift; sourceTree = "<group>"; };
+		EF7A5F112147D70200C6ECB4 /* kakaoLastYear_Friends4Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakaoLastYear_Friends4Block.swift; sourceTree = "<group>"; };
+		EF7A5F132148FD5F00C6ECB4 /* kakaoLastYear_NewsClustering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakaoLastYear_NewsClustering.swift; sourceTree = "<group>"; };
+		EF88ED3F214A40F0008986E2 /* kakaoLastYear_Bus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakaoLastYear_Bus.swift; sourceTree = "<group>"; };
 		EFF5E0B12136AB8E00C98383 /* bj1037.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj1037.swift; sourceTree = "<group>"; };
 		EFF5E0B32136B13600C98383 /* bj1076.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj1076.swift; sourceTree = "<group>"; };
 		EFF5E0B52136B4BB00C98383 /* bj1057.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj1057.swift; sourceTree = "<group>"; };
@@ -120,6 +129,14 @@
 			isa = PBXGroup;
 			children = (
 				EF56FA612137D8E200C5342F /* kakaoDemo01.swift */,
+				EF7A5F072146B52600C6ECB4 /* year2016.swift */,
+				EF7A5F0D2147839F00C6ECB4 /* descending.swift */,
+				EF7A5F0921477F6800C6ECB4 /* divideArray.swift */,
+				EF7A5F0B2147810D00C6ECB4 /* sumTwoIntagers.swift */,
+				EF7A5F0F2147C7DB00C6ECB4 /* kakaoLastYear_Dart.swift */,
+				EF7A5F112147D70200C6ECB4 /* kakaoLastYear_Friends4Block.swift */,
+				EF88ED3F214A40F0008986E2 /* kakaoLastYear_Bus.swift */,
+				EF7A5F132148FD5F00C6ECB4 /* kakaoLastYear_NewsClustering.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -193,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF342EB1212AC0E700310FD9 /* main.swift in Sources */,
+				EF7A5F0E2147839F00C6ECB4 /* descending.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
