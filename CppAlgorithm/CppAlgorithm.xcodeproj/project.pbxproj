@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF88ED5F214F88CE008986E2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF88ED5E214F88CE008986E2 /* main.cpp */; };
+		EF88ED66214F9DDC008986E2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF88ED5E214F88CE008986E2 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,10 @@
 /* Begin PBXFileReference section */
 		EF88ED5B214F88CE008986E2 /* CppAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF88ED5E214F88CE008986E2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF88ED67214F9DEC008986E2 /* CppAlgorithm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CppAlgorithm-Bridging-Header.h"; sourceTree = "<group>"; };
+		EF88ED68214F9DEC008986E2 /* Submultiple.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Submultiple.cpp; sourceTree = "<group>"; };
+		EF88ED6B214FA285008986E2 /* SumPrimes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SumPrimes.cpp; sourceTree = "<group>"; };
+		EF88ED6E214FA720008986E2 /* year2016.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = year2016.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,28 @@
 			isa = PBXGroup;
 			children = (
 				EF88ED5E214F88CE008986E2 /* main.cpp */,
+				EF88ED6A214FA269008986E2 /* Programmers */,
+				EF88ED65214F9DCD008986E2 /* Goorm */,
 			);
 			path = CppAlgorithm;
+			sourceTree = "<group>";
+		};
+		EF88ED65214F9DCD008986E2 /* Goorm */ = {
+			isa = PBXGroup;
+			children = (
+				EF88ED68214F9DEC008986E2 /* Submultiple.cpp */,
+				EF88ED67214F9DEC008986E2 /* CppAlgorithm-Bridging-Header.h */,
+			);
+			path = Goorm;
+			sourceTree = "<group>";
+		};
+		EF88ED6A214FA269008986E2 /* Programmers */ = {
+			isa = PBXGroup;
+			children = (
+				EF88ED6B214FA285008986E2 /* SumPrimes.cpp */,
+				EF88ED6E214FA720008986E2 /* year2016.cpp */,
+			);
+			path = Programmers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +117,7 @@
 				TargetAttributes = {
 					EF88ED5A214F88CE008986E2 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -118,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF88ED5F214F88CE008986E2 /* main.cpp in Sources */,
+				EF88ED66214F9DDC008986E2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,18 +262,35 @@
 		EF88ED63214F88CE008986E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 827YX997NH;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CppAlgorithm/Goorm/CppAlgorithm-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		EF88ED64214F88CE008986E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 827YX997NH;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CppAlgorithm/Goorm/CppAlgorithm-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
