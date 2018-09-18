@@ -29,6 +29,10 @@
 		EF88ED68214F9DEC008986E2 /* Submultiple.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Submultiple.cpp; sourceTree = "<group>"; };
 		EF88ED6B214FA285008986E2 /* SumPrimes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SumPrimes.cpp; sourceTree = "<group>"; };
 		EF88ED6E214FA720008986E2 /* year2016.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = year2016.cpp; sourceTree = "<group>"; };
+		EF88ED71214FB860008986E2 /* medianChars.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = medianChars.cpp; sourceTree = "<group>"; };
+		EF88ED722150454C008986E2 /* Marathon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Marathon.cpp; sourceTree = "<group>"; };
+		EF88ED732150483A008986E2 /* PandY.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PandY.cpp; sourceTree = "<group>"; };
+		EF88ED742150496B008986E2 /* indescendingString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = indescendingString.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,10 @@
 			children = (
 				EF88ED6B214FA285008986E2 /* SumPrimes.cpp */,
 				EF88ED6E214FA720008986E2 /* year2016.cpp */,
+				EF88ED742150496B008986E2 /* indescendingString.cpp */,
+				EF88ED71214FB860008986E2 /* medianChars.cpp */,
+				EF88ED732150483A008986E2 /* PandY.cpp */,
+				EF88ED722150454C008986E2 /* Marathon.cpp */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
