@@ -1,29 +1,65 @@
-
-// 소수 찾기
-
-#include <string>
-#include <vector>
 #include <iostream>
-#include <cmath>
 #include <algorithm>
 
 using namespace std;
 
-// for i in 2...sqrt(n)
-
-int solution(int n) {
-	int answer = 0;
+int fn(int n) {
 	
-	double sqt = sqrt(n);
+	string strN = to_string(n);
+	reverse(strN.begin(), strN.end());
 	
-	for (int ni = 1; ni <= sqt; ni++) {
-		cout << ni << endl;
-	}
+	int rn = stoi(strN);
+	
+	return n + rn;
+}
 
-	return answer;
+bool isPalindrome(int n) {
+	string strN = to_string(n);
+	
+	string reverseN = strN;
+	reverse(reverseN.begin(), reverseN.end());
+	
+	return (strN == reverseN);
 }
 
 int main() {
-	solution(101);
+	
+	int N;
+	cin >> N;
+	
+	int f1 = fn(N);
+	if (10000 <= f1) {
+		cout << "-1" << endl;
+		return 0;
+	}
+	if (isPalindrome(f1)) {
+		cout << f1 << endl;
+		return 0;
+	}
+	
+	
+	int f2 = fn(f1);
+	if (10000 <= f2) {
+		cout << "-1" << endl;
+		return 0;
+	}
+	if (isPalindrome(f2)) {
+		cout << f2 << endl;
+		return 0;
+	}
+	
+	int f3 = fn(f2);
+	if (10000 <= f3) {
+		cout << "-1" << endl;
+		return 0;
+	}
+	if (isPalindrome(f3)) {
+		cout << f3 << endl;
+		return 0;
+	}
+	
+	cout << "-1" << endl;
+	
+	
 	return 0;
 }

@@ -7,6 +7,8 @@ func combi(_ n: Int, _ r: Int) -> Int {
 	
 	return p
 }
+
+
 /*
 
 3

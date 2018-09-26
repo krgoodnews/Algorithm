@@ -51,7 +51,7 @@ let set = Set(arr)
 if set.count == arr.count {
 	print(count > 1 ? arr[1] : arr[0] )
 } else {
-	var countArr = Array(repeating: 0, count: 8001)
+	var countArr = Array(repeating: 0, count: 8001) // 음수와 양수
 	
 	arr.forEach { (value) in
 		countArr[value + 4000] += 1
