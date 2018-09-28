@@ -1,3 +1,6 @@
+// 단지 개수
+// 구역 영역 개수
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
