@@ -37,7 +37,7 @@
 		EF342EB0212AC0E700310FD9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EF342EB2212AC12B00310FD9 /* algorithm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "algorithm-Bridging-Header.h"; sourceTree = "<group>"; };
 		EF342EB3212B062100310FD9 /* bj1920.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj1920.swift; sourceTree = "<group>"; };
-		EF342EB5212B062900310FD9 /* BTS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTS.swift; sourceTree = "<group>"; };
+		EF342EB5212B062900310FD9 /* BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BST.swift; sourceTree = "<group>"; };
 		EF562DD2212806D800DA02E9 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF562DD5212806D800DA02E9 /* bj10026_X.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj10026_X.swift; sourceTree = "<group>"; };
 		EF56FA5F2137C6B300C5342F /* bj11724.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj11724.swift; sourceTree = "<group>"; };
@@ -161,7 +161,7 @@
 			children = (
 				EF342EA6212A575300310FD9 /* Queue.swift */,
 				EF342EAA212A7D7600310FD9 /* Stack.swift */,
-				EF342EB5212B062900310FD9 /* BTS.swift */,
+				EF342EB5212B062900310FD9 /* BST.swift */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";

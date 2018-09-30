@@ -1,5 +1,5 @@
 //
-//  BTS.swift
+//  BST.swift
 //  algorithm
 //
 //  Created by Goodnews on 2018. 8. 20..

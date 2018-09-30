@@ -23,8 +23,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EF0001B0215E8C2700552371 /* 6064.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 6064.cpp; sourceTree = "<group>"; };
+		EF0001B2215EF43F00552371 /* BST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BST.cpp; sourceTree = "<group>"; };
+		EF064024215F679200FB672B /* pretest02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pretest02.cpp; sourceTree = "<group>"; };
+		EF0EFC78215E47BA003DF9D3 /* 2667.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2667.cpp; sourceTree = "<group>"; };
+		EF0EFC79215E538A003DF9D3 /* 2178.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2178.cpp; sourceTree = "<group>"; };
+		EF361F14215E817E00CE8927 /* 2015_FindBracket02XX.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2015_FindBracket02XX.cpp; sourceTree = "<group>"; };
 		EF36FCA7215B65840059DC23 /* 2108_X.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2108_X.cpp; sourceTree = "<group>"; };
+		EF4E9BDC215F4C6A00430284 /* 1916???.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1916???.cpp"; sourceTree = "<group>"; };
 		EF55EABF215B94F100C2812C /* 2016_NearestDots.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2016_NearestDots.cpp; sourceTree = "<group>"; };
+		EF72B0382160492C00804BE6 /* watermelon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = watermelon.cpp; sourceTree = "<group>"; };
+		EF72B03A2160543700804BE6 /* Theatre Square.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Theatre Square.cpp"; sourceTree = "<group>"; };
+		EF74FBAA215F59A30030DB27 /* pretest01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pretest01.cpp; sourceTree = "<group>"; };
+		EF74FBAB215F5D280030DB27 /* pretest03X.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pretest03X.cpp; sourceTree = "<group>"; };
 		EF88ED5B214F88CE008986E2 /* CppAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF88ED5E214F88CE008986E2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EF88ED67214F9DEC008986E2 /* CppAlgorithm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CppAlgorithm-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -35,7 +46,11 @@
 		EF88ED722150454C008986E2 /* Marathon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Marathon.cpp; sourceTree = "<group>"; };
 		EF88ED732150483A008986E2 /* PandY.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PandY.cpp; sourceTree = "<group>"; };
 		EF88ED742150496B008986E2 /* indescendingString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = indescendingString.cpp; sourceTree = "<group>"; };
-		EFC178B5215B7E0A00AED31A /* 5thTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 5thTest.cpp; sourceTree = "<group>"; };
+		EFC178B5215B7E0A00AED31A /* 2015_FindRoad.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2015_FindRoad.cpp; sourceTree = "<group>"; };
+		EFC8136A215BA52A008AD2EA /* 2016_Palindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2016_Palindrome.cpp; sourceTree = "<group>"; };
+		EFC8136B215C6FE0008AD2EA /* 2016_FindWord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2016_FindWord.cpp; sourceTree = "<group>"; };
+		EFD26C07215D13EC00FE3A71 /* 2015_FindBracket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2015_FindBracket.cpp; sourceTree = "<group>"; };
+		EFD26C09215E3CBA00FE3A71 /* mockTest01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mockTest01.cpp; sourceTree = "<group>"; };
 		EFDD07DA2155F8B700C63EC2 /* FindPrimes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindPrimes.cpp; sourceTree = "<group>"; };
 		EFDD07DC215601D900C63EC2 /* cns01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cns01.cpp; sourceTree = "<group>"; };
 		EFDD07DE215608A600C63EC2 /* cns03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cns03.cpp; sourceTree = "<group>"; };
@@ -58,6 +73,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF0001B1215EF42900552371 /* DataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				EF0001B2215EF43F00552371 /* BST.cpp */,
+			);
+			path = DataStructure;
+			sourceTree = "<group>";
+		};
+		EF72B0372160490B00804BE6 /* Codeforces */ = {
+			isa = PBXGroup;
+			children = (
+				EF72B0392160541400804BE6 /* Problemset */,
+			);
+			path = Codeforces;
+			sourceTree = "<group>";
+		};
+		EF72B0392160541400804BE6 /* Problemset */ = {
+			isa = PBXGroup;
+			children = (
+				EF72B0382160492C00804BE6 /* watermelon.cpp */,
+				EF72B03A2160543700804BE6 /* Theatre Square.cpp */,
+			);
+			path = Problemset;
+			sourceTree = "<group>";
+		};
 		EF88ED52214F88CE008986E2 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +118,9 @@
 			isa = PBXGroup;
 			children = (
 				EF88ED5E214F88CE008986E2 /* main.cpp */,
+				EF72B0372160490B00804BE6 /* Codeforces */,
+				EF0001B1215EF42900552371 /* DataStructure */,
+				EFD26C08215E3CA300FE3A71 /* nhn */,
 				EFDD08002158BD7A00C63EC2 /* Backjoon */,
 				EF88ED6A214FA269008986E2 /* Programmers */,
 				EF88ED65214F9DCD008986E2 /* Goorm */,
@@ -90,8 +133,12 @@
 			children = (
 				EF88ED68214F9DEC008986E2 /* Submultiple.cpp */,
 				EF88ED67214F9DEC008986E2 /* CppAlgorithm-Bridging-Header.h */,
-				EFC178B5215B7E0A00AED31A /* 5thTest.cpp */,
+				EFC178B5215B7E0A00AED31A /* 2015_FindRoad.cpp */,
 				EF55EABF215B94F100C2812C /* 2016_NearestDots.cpp */,
+				EFC8136A215BA52A008AD2EA /* 2016_Palindrome.cpp */,
+				EFC8136B215C6FE0008AD2EA /* 2016_FindWord.cpp */,
+				EFD26C07215D13EC00FE3A71 /* 2015_FindBracket.cpp */,
+				EF361F14215E817E00CE8927 /* 2015_FindBracket02XX.cpp */,
 			);
 			path = Goorm;
 			sourceTree = "<group>";
@@ -113,15 +160,30 @@
 			path = Programmers;
 			sourceTree = "<group>";
 		};
+		EFD26C08215E3CA300FE3A71 /* nhn */ = {
+			isa = PBXGroup;
+			children = (
+				EFD26C09215E3CBA00FE3A71 /* mockTest01.cpp */,
+				EF74FBAB215F5D280030DB27 /* pretest03X.cpp */,
+				EF064024215F679200FB672B /* pretest02.cpp */,
+				EF74FBAA215F59A30030DB27 /* pretest01.cpp */,
+			);
+			path = nhn;
+			sourceTree = "<group>";
+		};
 		EFDD08002158BD7A00C63EC2 /* Backjoon */ = {
 			isa = PBXGroup;
 			children = (
-				EFDD08012158BDC000C63EC2 /* HelloWorld.cpp */,
+				EFDD08052158D53F00C63EC2 /* 1009.cpp */,
+				EF4E9BDC215F4C6A00430284 /* 1916???.cpp */,
 				EF36FCA7215B65840059DC23 /* 2108_X.cpp */,
+				EF0EFC79215E538A003DF9D3 /* 2178.cpp */,
+				EF0EFC78215E47BA003DF9D3 /* 2667.cpp */,
 				EFDD08032158BFFD00C63EC2 /* 2741.cpp */,
 				EFDD08042158CDC400C63EC2 /* 10866.cpp */,
-				EFDD08052158D53F00C63EC2 /* 1009.cpp */,
 				EFDD0806215926C800C63EC2 /* 11403.cpp */,
+				EF0001B0215E8C2700552371 /* 6064.cpp */,
+				EFDD08012158BDC000C63EC2 /* HelloWorld.cpp */,
 			);
 			path = Backjoon;
 			sourceTree = "<group>";
