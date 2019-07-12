@@ -5,10 +5,10 @@ func solution(_ record:[String]) -> [String] {
   var nicknameDic: [String: String] = [:]
 
   // 최신 닉네임을 nicknameDic에 저장
-  for message in record.reversed() {
-    let splits = message.split(separator: " ")
+  record.reversed().forEach {
+    let splits = $0.split(separator: " ")
     guard splits.count >= 3 else {
-      continue
+      return
     }
 
     let uid = String(splits[1])
@@ -17,21 +17,20 @@ func solution(_ record:[String]) -> [String] {
     if nicknameDic[uid] == nil {
       nicknameDic[uid] = nickname
     }
-
-    // 상태메시지를 반환
   }
 
   // 닉네임을 바탕으로 상태메시지를 변환
-  for message in record {
-    let splits = message.split(separator: " ")
+  record.forEach {
+    let splits = $0.split(separator: " ")
 
     guard let status = splits.first else {
-      continue
+      return
     }
+
     let uid = String(splits[1])
 
     guard let nickname = nicknameDic[uid] else {
-      continue
+      return
     }
 
     switch String(status) {
