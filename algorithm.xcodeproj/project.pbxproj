@@ -68,6 +68,7 @@
 		EFF5E0B52136B4BB00C98383 /* bj1057.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj1057.swift; sourceTree = "<group>"; };
 		EFF5E0B62136C36C00C98383 /* bj1009.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj1009.swift; sourceTree = "<group>"; };
 		EFF5E0B82136CB9B00C98383 /* bj1010.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj1010.swift; sourceTree = "<group>"; };
+		F3142A8522D94911005C48F0 /* q01_openChatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = q01_openChatting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +103,8 @@
 			children = (
 				EF342EB0212AC0E700310FD9 /* main.swift */,
 				EF88ED47214CCD66008986E2 /* jm.swift */,
-				EF88ED49214CD14F008986E2 /* kakao2018 */,
+				F3142A8422D948CA005C48F0 /* kakao2019_2회차풀이_201907 */,
+				EF88ED49214CD14F008986E2 /* kakao2019 */,
 				EF56FA65213FC62C00C5342F /* DataStructure */,
 				EF56FA64213FC61B00C5342F /* Programmers */,
 				EF56FA63213FC5F800C5342F /* Backjoon */,
@@ -166,7 +168,7 @@
 			path = DataStructure;
 			sourceTree = "<group>";
 		};
-		EF88ED49214CD14F008986E2 /* kakao2018 */ = {
+		EF88ED49214CD14F008986E2 /* kakao2019 */ = {
 			isa = PBXGroup;
 			children = (
 				EF88ED4A214CD170008986E2 /* q01_openTalkMessage.swift */,
@@ -175,7 +177,16 @@
 				EF88ED4E214CF3A7008986E2 /* q4_meokBang.swift */,
 				EF88ED50214D0001008986E2 /* q5_findRoad.swift */,
 			);
-			path = kakao2018;
+			path = kakao2019;
+			sourceTree = "<group>";
+		};
+		F3142A8422D948CA005C48F0 /* kakao2019_2회차풀이_201907 */ = {
+			isa = PBXGroup;
+			children = (
+				F3142A8522D94911005C48F0 /* q01_openChatting.swift */,
+			);
+			name = "kakao2019_2회차풀이_201907";
+			path = "kakao2019_2회차풀이_201907";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
