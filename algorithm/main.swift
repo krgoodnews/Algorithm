@@ -70,6 +70,3 @@ import Foundation
 //	var value: Int
 //}
 
-
-
-

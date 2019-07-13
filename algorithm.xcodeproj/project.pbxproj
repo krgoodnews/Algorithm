@@ -10,6 +10,7 @@
 		EF342EB1212AC0E700310FD9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF342EB0212AC0E700310FD9 /* main.swift */; };
 		EF7A5F0E2147839F00C6ECB4 /* descending.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A5F0D2147839F00C6ECB4 /* descending.swift */; };
 		EF88ED44214C8920008986E2 /* bj9466.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF88ED43214C8920008986E2 /* bj9466.swift */; };
+		F31F35DE22D9C7FF000D4F91 /* sort_numberK.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F35DD22D9C7FF000D4F91 /* sort_numberK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,6 +70,7 @@
 		EFF5E0B62136C36C00C98383 /* bj1009.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj1009.swift; sourceTree = "<group>"; };
 		EFF5E0B82136CB9B00C98383 /* bj1010.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj1010.swift; sourceTree = "<group>"; };
 		F3142A8522D94911005C48F0 /* q01_openChatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = q01_openChatting.swift; sourceTree = "<group>"; };
+		F31F35DD22D9C7FF000D4F91 /* sort_numberK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sort_numberK.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				EF7A5F112147D70200C6ECB4 /* kakaoLastYear_Friends4Block.swift */,
 				EF88ED3F214A40F0008986E2 /* kakaoLastYear_Bus.swift */,
 				EF7A5F132148FD5F00C6ECB4 /* kakaoLastYear_NewsClustering.swift */,
+				F31F35DD22D9C7FF000D4F91 /* sort_numberK.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F31F35DE22D9C7FF000D4F91 /* sort_numberK.swift in Sources */,
 				EF342EB1212AC0E700310FD9 /* main.swift in Sources */,
 				EF7A5F0E2147839F00C6ECB4 /* descending.swift in Sources */,
 				EF88ED44214C8920008986E2 /* bj9466.swift in Sources */,
