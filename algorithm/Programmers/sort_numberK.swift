@@ -25,8 +25,8 @@ func solution(_ array:[Int], _ commands:[[Int]]) -> [Int] {
   return result
 }
 
-let answer = solution([1, 5, 2, 6, 3, 7, 4], [[2, 5, 3], [4, 4, 1], [1, 7, 3]])
-print("solution:", answer)
+//let answer = solution([1, 5, 2, 6, 3, 7, 4], [[2, 5, 3], [4, 4, 1], [1, 7, 3]])
+//print("solution:", answer)
 
 
 

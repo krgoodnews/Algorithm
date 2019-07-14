@@ -70,3 +70,19 @@ import Foundation
 //	var value: Int
 //}
 
+var i = 4
+var d = 4.0
+var s = "HackerRank "
+// Declare second integer, double, and String variables.
+let readlineInt = Int(readLine()!)!
+let readlineDouble = Double(readLine()!)!
+let readlineString = readLine()!
+// Read and save an integer, double, and String to your variables.
+print(i + readlineInt)
+// Print the sum of both integer variables on a new line.
+print(d + readlineDouble)
+// Print the sum of the double variables on a new line.
+print(s + readlineString)
+// Concatenate and print the String variables on a new line
+// The 's' variable above should be printed first.
+
