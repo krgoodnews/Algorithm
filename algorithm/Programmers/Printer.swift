@@ -38,4 +38,3 @@ private func solution(_ priorities:[Int], _ location:Int) -> Int {
 
     return 0
 }
-
