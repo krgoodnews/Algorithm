@@ -15,7 +15,7 @@ func receiveTower(leftTowers: [Int], height: Int) -> Int {
     return 0
 }
 
-func solution(_ heights:[Int]) -> [Int] {
+private func solution(_ heights:[Int]) -> [Int] {
     var result: [Int] = []
     for i in 0..<heights.count {
         result.append(receiveTower(leftTowers: Array(heights[0..<i]), height: heights[i]))

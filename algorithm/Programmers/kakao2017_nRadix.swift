@@ -1,5 +1,5 @@
 
-func solution(_ n:Int, _ t:Int, _ m:Int, _ p:Int) -> String {
+private func solution(_ n:Int, _ t:Int, _ m:Int, _ p:Int) -> String {
 	var answer = ""
 	
 	var allString = ""

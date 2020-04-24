@@ -1,4 +1,4 @@
-func solution(_ m:Int, _ n:Int, _ board:[String]) -> Int {
+private func solution(_ m:Int, _ n:Int, _ board:[String]) -> Int {
 	var result = 0
 	
 	var willDeletePositions:[(Int, Int)] = []

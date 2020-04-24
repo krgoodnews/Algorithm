@@ -1,6 +1,6 @@
 import Foundation
 
-func solution(_ record:[String]) -> [String] {
+private func solution(_ record:[String]) -> [String] {
   var result: [String] = []
   var nicknameDic: [String: String] = [:]
 

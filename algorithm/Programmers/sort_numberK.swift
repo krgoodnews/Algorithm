@@ -9,7 +9,7 @@
 import Foundation
 
 // https://www.welcomekakao.com/learn/courses/30/lessons/42748?language=swift
-func solution(_ array:[Int], _ commands:[[Int]]) -> [Int] {
+private func solution(_ array:[Int], _ commands:[[Int]]) -> [Int] {
   func findNumber(_ array: [Int], _ command: [Int]) -> Int {
     let startNum = command[0] - 1
     let endNum = command[1]

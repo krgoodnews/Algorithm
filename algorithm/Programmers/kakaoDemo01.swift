@@ -1,7 +1,7 @@
 
 import Foundation
 
-func solution(_ arr:[Int]) -> Bool {
+private func solution(_ arr:[Int]) -> Bool {
 	var answer = true
 	
 	var setArr = Set(arr)

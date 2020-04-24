@@ -19,7 +19,7 @@ extension String
 }
 
 
-func solution(_ str1:String, _ str2:String) -> Int {
+private func solution(_ str1:String, _ str2:String) -> Int {
 	
 	// 소문자
 	var lower1 = str1.lowercased()

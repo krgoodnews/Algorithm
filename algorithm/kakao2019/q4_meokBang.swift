@@ -1,6 +1,6 @@
 import Foundation
 
-func solution(_ food_times:[Int], _ k:Int64) -> Int {
+private func solution(_ food_times:[Int], _ k:Int64) -> Int {
 	
 	// 다 먹었을 경우 -1 반환
 	let totalTime = food_times.reduce(0, +)

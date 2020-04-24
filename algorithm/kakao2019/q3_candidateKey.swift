@@ -30,7 +30,7 @@ func combinations<T>(source: [T], takenBy : Int) -> [[T]] {
 	return result
 }
 
-func solution(_ relation:[[String]]) -> Int {
+private func solution(_ relation:[[String]]) -> Int {
 	let column = relation[0].count // 4
 	let rows = relation.count // 6
 	var answerArr:[[Int]] = []
@@ -91,7 +91,7 @@ func solution(_ relation:[[String]]) -> Int {
 [[100,ryan,music,2],[200,apeach,math,2],[300,tube,computer,3],[400,con,computer,4],[500,muzi,music,3],[600,apeach,music,2]]
 */
 //
-//func solution(_ relation:[[String]]) -> Int {
+//private func solution(_ relation:[[String]]) -> Int {
 //
 //	//	var students = [Student]()
 ////	for arr in relation {

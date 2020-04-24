@@ -1,7 +1,7 @@
 
 import Foundation
 
-func solution(_ N:Int, _ stages:[Int]) -> [Int] {
+private func solution(_ N:Int, _ stages:[Int]) -> [Int] {
 	
 	// 머물러있는자 계산
 	var stay = Array(repeating: 0, count: N+2)

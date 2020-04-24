@@ -1,3 +1,11 @@
+//
+//  TrucksOnBridge.swift
+//  algorithm
+//
+//  Created by Yunsu Guk on 2020/04/24.
+//  Copyright © 2020 krgoodnews. All rights reserved.
+//
+
 import Foundation
 
 private final class BridgeQueue {
@@ -53,5 +61,3 @@ private func solution(_ bridge_length:Int, _ weight:Int, _ truck_weights:[Int]) 
 
     return resultTime
 }
-print(solution(2, 10, [7,4,5,6]))
-print(solution(100, 100, [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]))

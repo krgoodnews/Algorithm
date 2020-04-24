@@ -24,7 +24,7 @@ func intToTime(_ num: Int) -> String {
 	return strHour + ":" + strMin
 }
 
-func solution(_ n:Int, _ t:Int, _ m:Int, _ timetable:[String]) -> String {
+private func solution(_ n:Int, _ t:Int, _ m:Int, _ timetable:[String]) -> String {
 	var result = 0
 	var crewIntArr = timetable.map({ timeToInt($0) }).sorted()
 	

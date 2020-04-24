@@ -6,7 +6,7 @@ struct Node {
 	let position: (x: Int, y: Int)
 }
 
-func solution(_ nodeinfo:[[Int]]) -> [[Int]] {
+private func solution(_ nodeinfo:[[Int]]) -> [[Int]] {
 	//	var root = Node(index: -1, position: (x: 0, y: 100001))
 	var nodes: [Node] = []
 	for (i, value) in nodeinfo.enumerated() {

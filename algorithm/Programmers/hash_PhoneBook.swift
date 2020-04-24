@@ -1,5 +1,5 @@
 
-func solution(_ phoneBook:[String]) -> Bool {
+private func solution(_ phoneBook:[String]) -> Bool {
 	
 	for i in 0..<phoneBook.count-1 {
 		for j in (i+1)..<phoneBook.count {

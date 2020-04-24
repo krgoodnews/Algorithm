@@ -18,7 +18,7 @@ extension String
 	}
 }
 
-func solution(_ dartResult:String) -> Int {
+private func solution(_ dartResult:String) -> Int {
 	
 	var idxArr = [Int]() // 숫자 인덱스 모음
 	

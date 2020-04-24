@@ -1,6 +1,6 @@
 // 두 정수 사이의 합
 
-func solution(_ a:Int, _ b:Int) -> Int64 {
+private func solution(_ a:Int, _ b:Int) -> Int64 {
 	var result = 0
 	
 	let minV = min(a, b)
