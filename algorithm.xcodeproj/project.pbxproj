@@ -10,6 +10,7 @@
 		E67E998324530F6700953DAE /* Towers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E998224530F6700953DAE /* Towers.swift */; };
 		E67E998524531EC900953DAE /* TrucksOnBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E998424531EC900953DAE /* TrucksOnBridge.swift */; };
 		E67E99872453235A00953DAE /* DevelopFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E99862453235A00953DAE /* DevelopFeature.swift */; };
+		E67E99892453318400953DAE /* Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E99882453318400953DAE /* Printer.swift */; };
 		EF342EB1212AC0E700310FD9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF342EB0212AC0E700310FD9 /* main.swift */; };
 		EF7A5F0E2147839F00C6ECB4 /* descending.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A5F0D2147839F00C6ECB4 /* descending.swift */; };
 		EF88ED44214C8920008986E2 /* bj9466.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF88ED43214C8920008986E2 /* bj9466.swift */; };
@@ -31,6 +32,7 @@
 		E67E998224530F6700953DAE /* Towers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Towers.swift; sourceTree = "<group>"; };
 		E67E998424531EC900953DAE /* TrucksOnBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrucksOnBridge.swift; sourceTree = "<group>"; };
 		E67E99862453235A00953DAE /* DevelopFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopFeature.swift; sourceTree = "<group>"; };
+		E67E99882453318400953DAE /* Printer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Printer.swift; sourceTree = "<group>"; };
 		EF342E9E21280B1D00310FD9 /* bj10801.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj10801.swift; sourceTree = "<group>"; };
 		EF342EA021280FCD00310FD9 /* bj5622.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj5622.swift; sourceTree = "<group>"; };
 		EF342EA2212811C000310FD9 /* bj2748.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj2748.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				E67E998224530F6700953DAE /* Towers.swift */,
 				E67E998424531EC900953DAE /* TrucksOnBridge.swift */,
 				E67E99862453235A00953DAE /* DevelopFeature.swift */,
+				E67E99882453318400953DAE /* Printer.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				EF88ED44214C8920008986E2 /* bj9466.swift in Sources */,
 				E67E998324530F6700953DAE /* Towers.swift in Sources */,
 				E67E998524531EC900953DAE /* TrucksOnBridge.swift in Sources */,
+				E67E99892453318400953DAE /* Printer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
