@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E641CBA72460F068008ACE0B /* RansomNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E641CBA62460F068008ACE0B /* RansomNote.swift */; };
-		E641CBAA2460F088008ACE0B /* DevSIsters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E641CBA92460F088008ACE0B /* DevSIsters.swift */; };
 		E641CBAC2460F26C008ACE0B /* NumberComplement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E641CBAB2460F26C008ACE0B /* NumberComplement.swift */; };
 		E67E998324530F6700953DAE /* Towers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E998224530F6700953DAE /* Towers.swift */; };
 		E67E998524531EC900953DAE /* TrucksOnBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E998424531EC900953DAE /* TrucksOnBridge.swift */; };
@@ -16,6 +15,7 @@
 		E67E99892453318400953DAE /* Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E99882453318400953DAE /* Printer.swift */; };
 		E67E998B24539B9100953DAE /* MockTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E998A24539B9100953DAE /* MockTest.swift */; };
 		E67E998D245582DA00953DAE /* BaseBallGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67E998C245582DA00953DAE /* BaseBallGame.swift */; };
+		E6EA715A2463AECB00E62BFB /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EA71592463AECB00E62BFB /* MajorityElement.swift */; };
 		EF342EB1212AC0E700310FD9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF342EB0212AC0E700310FD9 /* main.swift */; };
 		EF7A5F0E2147839F00C6ECB4 /* descending.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A5F0D2147839F00C6ECB4 /* descending.swift */; };
 		EF88ED44214C8920008986E2 /* bj9466.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF88ED43214C8920008986E2 /* bj9466.swift */; };
@@ -35,7 +35,6 @@
 
 /* Begin PBXFileReference section */
 		E641CBA62460F068008ACE0B /* RansomNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RansomNote.swift; sourceTree = "<group>"; };
-		E641CBA92460F088008ACE0B /* DevSIsters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevSIsters.swift; sourceTree = "<group>"; };
 		E641CBAB2460F26C008ACE0B /* NumberComplement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberComplement.swift; sourceTree = "<group>"; };
 		E67E998224530F6700953DAE /* Towers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Towers.swift; sourceTree = "<group>"; };
 		E67E998424531EC900953DAE /* TrucksOnBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrucksOnBridge.swift; sourceTree = "<group>"; };
@@ -43,6 +42,7 @@
 		E67E99882453318400953DAE /* Printer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Printer.swift; sourceTree = "<group>"; };
 		E67E998A24539B9100953DAE /* MockTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTest.swift; sourceTree = "<group>"; };
 		E67E998C245582DA00953DAE /* BaseBallGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseBallGame.swift; sourceTree = "<group>"; };
+		E6EA71592463AECB00E62BFB /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
 		EF342E9E21280B1D00310FD9 /* bj10801.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj10801.swift; sourceTree = "<group>"; };
 		EF342EA021280FCD00310FD9 /* bj5622.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj5622.swift; sourceTree = "<group>"; };
 		EF342EA2212811C000310FD9 /* bj2748.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bj2748.swift; sourceTree = "<group>"; };
@@ -114,6 +114,7 @@
 			children = (
 				E641CBA62460F068008ACE0B /* RansomNote.swift */,
 				E641CBAB2460F26C008ACE0B /* NumberComplement.swift */,
+				E6EA71592463AECB00E62BFB /* MajorityElement.swift */,
 			);
 			path = MayChallenge;
 			sourceTree = "<group>";
@@ -121,7 +122,6 @@
 		E641CBA82460F07C008ACE0B /* CodingTest */ = {
 			isa = PBXGroup;
 			children = (
-				E641CBA92460F088008ACE0B /* DevSIsters.swift */,
 			);
 			path = CodingTest;
 			sourceTree = "<group>";
@@ -303,9 +303,9 @@
 				E67E99872453235A00953DAE /* DevelopFeature.swift in Sources */,
 				EF342EB1212AC0E700310FD9 /* main.swift in Sources */,
 				EF7A5F0E2147839F00C6ECB4 /* descending.swift in Sources */,
-				E641CBAA2460F088008ACE0B /* DevSIsters.swift in Sources */,
 				E67E998D245582DA00953DAE /* BaseBallGame.swift in Sources */,
 				E67E998B24539B9100953DAE /* MockTest.swift in Sources */,
+				E6EA715A2463AECB00E62BFB /* MajorityElement.swift in Sources */,
 				E641CBA72460F068008ACE0B /* RansomNote.swift in Sources */,
 				EF88ED44214C8920008986E2 /* bj9466.swift in Sources */,
 				E67E998324530F6700953DAE /* Towers.swift in Sources */,
