@@ -1,6 +1,14 @@
 
 import Foundation
 
+class Solution {
+    func firstUniqChar(_ s: String) -> Int {
+        for (i, char) in s.enumerated() {
+            if s.firstIndex(of: char) == s.lastIndex(of: char) {
+                return i
+            }
+        }
 
-
-print(Solution().majorityElement([2,2,1,1,1,2,2]))
+        return -1
+    }
+}
